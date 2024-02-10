@@ -9,11 +9,13 @@ Product.belongsTo(Category);
 Category.hasMany(Product);
 
 Product.belongsToMany(Tag, {
-  through: ProductTag
+  through: ProductTag,
+  foreignKey: 'Tag_id'
 });
 
 Tag.belongsToMany(Product, {
-  through: ProductTag
+  through: ProductTag,
+  foreignKey: 'Product_id'
 });
 
 module.exports = {
