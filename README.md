@@ -2,7 +2,7 @@
 # Secret Shopper [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&link=https%3A%2F%2Fopensource.org%2Flicense%2Fmit%2F)](https://opensource.org/license/mit/)
 
 ## Description 
-This is an E-Commerce site (that uses starter code) with a **sequelize backend** which is what I implemented. 
+This project contains the backend code for an E-commerce website that uses the **Sequelize** and **Dotenv libraries**.
 
 ## Table of Contents
 
@@ -19,15 +19,20 @@ This is an E-Commerce site (that uses starter code) with a **sequelize backend**
 
         git clone 'repository url'
 
+2. cd into the /Develop folder
 
-2. Install code dependencies by running:
+        cd /Develop
+   
+3. Install code dependencies by running:
 
         npm install
 
-3. You should now be able to use the code.
+4. You should now be able to use the code.
 
 ## Usage
 *To use this project*
+
+You can run http requests in **Insomnia** in order to test their functionality 
 
 ## Demo
 
