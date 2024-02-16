@@ -8,7 +8,6 @@ router.get('/', (req, res) => {
   try {
     Tag.findAll({
       include: Product,
-      include: ProductTag
     }).then(tags => {
       res.json(tags);
     });
@@ -22,7 +21,6 @@ router.get('/:id', (req, res) => {
   try {
     Tag.findByPk(req.params.id, {
       include: Product,
-      include: ProductTag
     }).then(tag => {
       res.json(tag);
     });
