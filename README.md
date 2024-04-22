@@ -2,7 +2,7 @@
 # Secret Shopper [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&link=https%3A%2F%2Fopensource.org%2Flicense%2Fmit%2F)](https://opensource.org/license/mit/)
 
 ## Description 
-This project contains the backend code for an E-commerce website that uses the **Sequelize** and **Dotenv libraries**.
+This is a Back-End application for an E-commerce website. With this appliation the user can access routes for getting all categories, products, and tags, or getting a single category, product, or tag. The user can also create, update and delete any category, product, or tag. The application uses a **Sequelize** backend and the **Dotenv library**.
 
 ## Table of Contents
 
